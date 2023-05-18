@@ -1,5 +1,6 @@
 /* Стиль кнопок, которые используются для открытия и закрытия панели аккордеона */
-*{box-sizing: border-box;}
+*{box-sizing: border-box;
+   font-family:sans-serif;}
 .accordion {
     background-color: #eee;
     color: #444;

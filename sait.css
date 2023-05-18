@@ -16,16 +16,16 @@
 }
 .box{
     display: flex;
-   
+   height: 2000px;
     border:1px solid #000 ;
     
-    width: 1000px;
+    width: auto;
     margin: 0 auto;
 }
 .box1{
     
     width: 30%;
-    height: 2000px;
+    
     background: #3f6592;
     color: #ffffff;   
             

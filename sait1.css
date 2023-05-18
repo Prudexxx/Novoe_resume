@@ -32,3 +32,65 @@
     border: 1px solid #ccc;
     border-top: none;
   }
+
+  #trys1{
+    background-color: rgb(164, 164, 164);
+  }
+
+  #trys  {
+ 
+    background-color: rgb(164, 164, 164);
+  -moz-animation: cycle 4s linear infinite;            
+    -webkit-animation: cycle 4s linear infinite;
+ 
+}
+ 
+@-moz-keyframes cycle {
+        35% {transform: rotate(0) translate(0, 0);}
+        40% {transform: rotate(5deg) translate(0, -2px);}
+        45% {transform: rotate(-3deg) translate(0, -2px);}
+        50% {transform: rotate(5deg) translate(0, -2px);}
+        55% {transform: rotate(-3deg) translate(0, -2px);}
+        60% {transform: rotate(5deg) translate(0, -2px);}
+        65% {transform: rotate(-3deg) translate(0, -2px);}
+        70% {transform: rotate(0) translate(0, 0);}
+    }
+ 
+    @-webkit-keyframes cycle {
+        35% {transform: rotate(0) translate(0, 0);}
+        40% {transform: rotate(5deg) translate(0, -2px);}
+        45% {transform: rotate(-3deg) translate(0, -2px);}
+        50% {transform: rotate(5deg) translate(0, -2px);}
+        55% {transform: rotate(-3deg) translate(0, -2px);}
+        60% {transform: rotate(5deg) translate(0, -2px);}
+        65% {transform: rotate(-3deg) translate(0, -2px);}
+        70% {transform: rotate(0) translate(0, 0);}
+    }
+    #trys1{
+ 
+      -moz-animation: cycle 4s linear infinite;            
+        -webkit-animation: cycle 4s linear infinite;
+     
+    }
+     
+    @-moz-keyframes cycle {
+            35% {transform: rotate(0) translate(0, 0);}
+            40% {transform: rotate(5deg) translate(0, -2px);}
+            45% {transform: rotate(-3deg) translate(0, -2px);}
+            50% {transform: rotate(5deg) translate(0, -2px);}
+            55% {transform: rotate(-3deg) translate(0, -2px);}
+            60% {transform: rotate(5deg) translate(0, -2px);}
+            65% {transform: rotate(-3deg) translate(0, -2px);}
+            70% {transform: rotate(0) translate(0, 0);}
+        }
+     
+        @-webkit-keyframes cycle {
+            35% {transform: rotate(0) translate(0, 0);}
+            40% {transform: rotate(3deg) translate(0, -2px);}
+            45% {transform: rotate(-1deg) translate(0, -2px);}
+            50% {transform: rotate(3deg) translate(0, -2px);}
+            55% {transform: rotate(-1deg) translate(0, -2px);}
+            60% {transform: rotate(3deg) translate(0, -2px);}
+            65% {transform: rotate(-1deg) translate(0, -2px);}
+            70% {transform: rotate(0) translate(0, 0);}
+        }

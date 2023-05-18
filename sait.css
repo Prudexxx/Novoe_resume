@@ -57,11 +57,12 @@
 .img{
     margin: 1   0px;
 }
+}
 .line{
-    width: 640px;
+    
     background: #a8a3a3;
-    padding-left: 300px;
-    padding-top: 1px;
+
+    padding-top: 5px;
     margin-top: 5px;
 }
 .oput{

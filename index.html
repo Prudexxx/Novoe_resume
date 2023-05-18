@@ -19,7 +19,7 @@
         <div class="box">   
              <div class="box1">
                  <div class="foto">
-                     <img class="img" src="./image-round.png" width="190px" height="190px" alt="">
+                    <img class="img" src="Foto (1).jpg" width="200px" height="300px" alt="">
                      <p class="dannue">ЛИЧНЫЕ ДАННЫЕ</p1>
                         <div class="Danue">
                             <i class="fa fa-child" aria-hidden="true"></i>
@@ -34,7 +34,7 @@
                             <span class="name" id="p" >PBrusnitsyn@prm.beeline.ru</span>
                             
                         </div>
-                        <a class="knopka" href="Nagrada/foto.html" class="btn">Благодарности и награды</a> 
+<!--                         <a class="knopka" href="Nagrada/foto.html" class="btn">Благодарности и награды</a>  -->
                         
                         
                         
@@ -46,7 +46,7 @@
             <div class="box2">
                 <h1 class="Fio">Павел Брусницын</h1>
                 <h4 class="otdel">
-                    Ведущий специалист  ООКМР №3 НОКМРГК №6
+                   Специалист дистанционых продаж
                 </h4>
                 <div class="line"></div>
                     <div class="stasz">
@@ -59,7 +59,7 @@
                         <div class="dat">
                             <div class="tab">
                                 <button class="tablinks" onclick="openCity(event, 'London')">Высшее</button>
-                                <button class="tablinks" onclick="openCity(event, 'Paris')">Специальность</button>
+                                <button  id="trys" class="tablinks" onclick="openCity(event, 'Paris')">Специальность</button>
                                 <button class="tablinks" onclick="openCity(event, 'Tokyo')">Дата окончания </button>
                               </div>
                               
@@ -88,6 +88,11 @@
                         <h4 class="rabota">ПАО "ВЫМПЕЛКОМ"</h4>
                     </div>
                     <div class="God_me">
+                        
+                        <button  id="trys1" class="accordion "  >Февраль 2022 по настоящее время</button>
+                        <div class="panel">
+                        <p>Направление целевых продаж конвергентных продуктов  номер 6</p>
+                        </div>
                         <button class="accordion">Октябрь 2021 - настоящее время</button>
                         <div class="panel">
                         <p>Ведущий специалист по клиентскому сервису в голосовых каналах ООКМР 3 НОКМРГК 6. Основные обязанности: обслуживание клиентов и входящие продажи продуктов B2C Mobile/FTTB/FMC, наставничество и помощь в адаптации новых сотрудников, тестирование нового ПО и тд.</p>
@@ -123,7 +128,7 @@
                         <h4 class="rabota">ЗНАНИЯ и ОПЫТ</h4>
                 
                 </div>
-                <div class="Kursy">Знание видов бизнеса B2C, FMC, FTTB.<br>Знание специализированных программ(CSM, ACRM, INAC, и много BackOffice)<br>Знание этики поведения внутри компании.<br>Знание рынка потребителей.<br>Опыт наставничества и суфлирования, помощь в адаптации новых сотрудников</div>
+                <div class="Kursy">Знание видов бизнеса B2C, FMC, FTTB.<br>Знание специализированных программ(CSM, ACRM, INAC, и много BackOffice)<br>Знание этики поведения внутри компании.<br>Знание рынка потребителей.<br>Опыт наставничества и суфлирования, помощь в адаптации новых сотрудников и мощной мотивации!</div>
                 <div class="line"></div>
                     <div class="stasz">
                         <div class="oput">
@@ -147,8 +152,8 @@
                         <h4 class="rabota">ПРОЙДЕННЫЕ КУРСЫ</h4>
                 
                 </div>
-                <div class="Kursy">
-                    <br> "Планирование", "Организация","Лидерство",  "Контроль".
+                <div class="Kursy"> 
+              "Постановка целей", "Организация","Лидерство", "Учимся на ошибках".
                     <br> Курсы по iT программированию HTML, CSS, JavaScript. 
                     <br> PhotoShop, феноменальная память 2.0 и много  других.</div>
 
@@ -160,7 +165,10 @@
                          </div>
                         <h4 class="rabota">О СЕБЕ</h4>
                 
-                </div>Занимаюсь спортом. Читаю, обучаюсь, развиваюсь по разным направлениям, слушаю аудиозаписи на развитие личности и тайм менеджемента. Умею создавать одностраничные сайты, программы.</div>
+                      </div> Читаю, обучаюсь, развиваюсь по разным направлениям, люблю аудиозаписи на развитие личности и тайм менеджемента.
+            <br> Умею создавать программы  и одностраничные сайты. 
+            <br>  Владею знаниями Photoshopa.
+         <br> Благодаря знаниям - создаю рабочие инструменты в виде программ для достижений целей в работы.сти и тайм менеджемента. Умею создавать одностраничные сайты, программы.</div>
                 <div class="Kursy"> 
                 <div class="line"></div>
               
@@ -169,6 +177,25 @@
             </div>
         </div>
     </div>
+<script>
+let remov = document.getElementById('trys')
+remov.addEventListener('click', function(e){
+if(remov){
+    document.getElementById('trys').removeAttribute('id');
+}
+});
+
+let remov1 = document.getElementById('trys1')
+remov1.addEventListener('click', function(e){
+if(remov1){
+    document.getElementById('trys1').removeAttribute('id');
+}
+})
+
+
+
+
+    </script>
 <script src="sait.js"></script>
 
 <script src="SERT.js"></script>
